@@ -84,7 +84,7 @@ The AWS Command Line Interface for interacting with AWS services.- `helm` (v3+)
 
 ```bash
 
-**Verify Installation:**export AWS_REGION=us-west-2
+**Verify Installation:**export AWS_REGION=ap-south-1
 
 ```bash
 
@@ -472,7 +472,7 @@ eksctl create iamserviceaccount \```bash
 
   --approve```
 
-```k8s-sampleapp-frontend-1234567890.us-west-2.elb.amazonaws.com
+```k8s-sampleapp-frontend-1234567890.ap-south-1.elb.amazonaws.com
 
 ```
 
