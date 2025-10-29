@@ -1,0 +1,42 @@
+# General
+.DS_Store
+.vscode/
+*.log
+*.swp
+*.swo
+*~
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# AWS
+.aws/
+*.pem
+*.key
+
+# Docker
+.dockerignore
+
+# Secrets
+secrets/
+*.env
+.env.local
+.env.*.local
+credentials
+*.crt
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+Thumbs.db
